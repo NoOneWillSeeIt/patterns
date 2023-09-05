@@ -56,12 +56,12 @@ class ToyTerrier(Dog):
 # только неизменяемые части внутри классов. В этом поможет стратегия
 
 
-from abc import ABC, abstractclassmethod
+from abc import ABC, abstractmethod
 
 
 class IBarkBehaviour(ABC):
 
-    @abstractclassmethod
+    @abstractmethod
     def bark(self):
         """Make some noise"""
 
